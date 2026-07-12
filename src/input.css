@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+
+@theme {
+  --color-Blue-100: hsl(225, 100%, 94%);
+  --color-Blue-700: hsl(245, 75%, 52%);
+  --color-Blue-50: hsl(225, 100%, 98%);
+  --color-Gray-600: hsl(224, 23%, 55%);
+  --color-Blue-950: hsl(223, 47%, 23%);
+
+  --font-Red-Hat: 'Red Hat';
+}
+
+@font-face {
+  font-family: 'Red Hat';
+  font-style: normal;
+  font-weight: 500 700 900;
+  font-display: swap;
+  src: url("../assets/fonts/Red_Hat_Display/RedHatDisplay-VariableFont_wght.woff2") format("woff2");
+}
